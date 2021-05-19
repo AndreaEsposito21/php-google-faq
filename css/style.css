@@ -8,7 +8,55 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+img {
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
 main {
-    width: 80%;
-    background-color: gray;
+    width: 70%;
+    margin: auto;
+    padding: 70px 30px;
+}
+
+
+.flex {
+    display: flex;
+}
+.logo {
+    flex: 0%;
+    padding: 20px;
+}
+.heading {
+    flex: 90%;
+    padding: 20px;
+}
+.menu {
+    list-style-type: none;
+    border-bottom: 1px solid black;
+}
+.menu a {
+    color: black;
+}
+
+li {
+    margin-left: 20px;
+    padding-bottom: 20px;
+}
+.blue {
+    border-bottom: 3px solid dodgerblue;
+}
+.blue a {
+    color: dodgerblue;
+}
+
+h1 {
+    font-weight: 300;
+}
+
+h2 {
+    margin: 25px 0;
 }
